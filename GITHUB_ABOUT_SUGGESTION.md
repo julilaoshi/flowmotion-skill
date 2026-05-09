@@ -2,7 +2,7 @@
 
 ## Description
 
-`Brainstorm Skill: turn messy ideas, spoken notes, and SRT transcripts into structured flow specs, connection specs, and motion diagram briefs.`
+`FlowMotion Skill: turn messy ideas, spoken notes, and SRT transcripts into structured flow specs, connection specs, and motion diagram briefs.`
 
 ## Website
 
@@ -10,7 +10,7 @@ Leave empty until a public demo page exists.
 
 ## Topics
 
-- `brainstorm-skill`
+- `flowmotion-skill`
 - `flowchart`
 - `motion-diagram`
 - `srt-to-flowchart`

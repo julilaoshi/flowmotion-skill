@@ -1,25 +1,25 @@
-# Brainstorm Skill
+# FlowMotion Skill
 
 <p align="center">
   <strong>From messy voice notes to motion-ready flowcharts.</strong><br />
-  Brainstorm Skill turns spoken ideas, SRT transcripts, and rough planning sessions into structured visual flows with clear reveal order, connection logic, and motion-diagram briefs.
+  FlowMotion Skill turns spoken ideas, SRT transcripts, and rough planning sessions into structured visual flows with clear reveal order, connection logic, and motion-diagram briefs.
 </p>
 
 <p align="center">
-  <a href="https://github.com/julilaoshi/brainstorm-skill"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
+  <a href="https://github.com/julilaoshi/flowmotion-skill"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="#how-to-install"><img alt="Install" src="https://img.shields.io/badge/Install-111111?style=for-the-badge" /></a>
   <a href="./examples/srt_to_flowchart_example.md"><img alt="Example" src="https://img.shields.io/badge/View-Example-2da44e?style=for-the-badge" /></a>
 </p>
 
-Public `v1.0`. This repository contains the public-safe version of Brainstorm Skill.
+Public `v1.0`. This repository contains the public-safe version of FlowMotion Skill.
 
 English | [简体中文](./README.zh-CN.md)
 
 ## Demo
 
 <p align="center">
-  <img src="./site/assets/brainstorm-skill-demo.gif" alt="Brainstorm Skill motion flow demo" width="76%" />
+  <img src="./site/assets/flowmotion-skill-demo.gif" alt="FlowMotion Skill motion flow demo" width="76%" />
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Start Here
 
-- [Star the repository](https://github.com/julilaoshi/brainstorm-skill)
+- [Star the repository](https://github.com/julilaoshi/flowmotion-skill)
 - [Read the public skill file](./skill/SKILL.md)
 - [Try the SRT-to-flowchart example](./examples/srt_to_flowchart_example.md)
 
@@ -45,7 +45,7 @@ English | [简体中文](./README.zh-CN.md)
 
 Most idea capture stops at text.
 
-Brainstorm Skill exists for the moment after capture: when the raw thoughts need to become a flow that someone else can understand in a meeting, a class, a video, or a product demo.
+FlowMotion Skill exists for the moment after capture: when the raw thoughts need to become a flow that someone else can understand in a meeting, a class, a video, or a product demo.
 
 The public version focuses on the reusable method:
 
@@ -56,7 +56,7 @@ The public version focuses on the reusable method:
 
 ## What This Repository Includes
 
-- the public Brainstorm Skill file
+- the public FlowMotion Skill file
 - public-safe examples
 - reusable templates for flow specs, connection specs, and motion timelines
 - a privacy and release checklist
@@ -75,7 +75,7 @@ The public version focuses on the reusable method:
 
 ## Why The Social Media Version Looks Stronger
 
-The public repository focuses on Brainstorm Skill itself.
+The public repository focuses on FlowMotion Skill itself.
 
 In my internal workflow, stronger demos may also use:
 
@@ -93,10 +93,10 @@ This public version opens the reusable method and templates. It does not ship th
 Open Codex, Claude Code, or another coding agent and paste:
 
 ```text
-Please help me install Brainstorm Skill.
+Please help me install FlowMotion Skill.
 
 Repository:
-https://github.com/julilaoshi/brainstorm-skill
+https://github.com/julilaoshi/flowmotion-skill
 
 Please do the following:
 1. Read README.md and skill/SKILL.md
@@ -110,8 +110,8 @@ Please do the following:
 ### Manual install fallback
 
 ```bash
-git clone https://github.com/julilaoshi/brainstorm-skill.git
-cd brainstorm-skill
+git clone https://github.com/julilaoshi/flowmotion-skill.git
+cd flowmotion-skill
 ```
 
 Then copy `skill/SKILL.md` into your coding agent's skills directory, or ask your agent to do it.
@@ -123,7 +123,7 @@ Restart your coding agent after installation.
 Paste this into your coding agent:
 
 ```text
-Use Brainstorm Skill.
+Use FlowMotion Skill.
 
 Turn this messy idea into:
 1. a core judgment
@@ -139,7 +139,7 @@ and turns the result into a clear flowchart I can use in a presentation.
 
 ## Core Workflow
 
-Brainstorm Skill works in four steps:
+FlowMotion Skill works in four steps:
 
 1. Gather messy input.
 2. Extract the core judgment, nodes, and relationships.
@@ -166,7 +166,7 @@ Structure first. Layout second. Connections third. Motion last.
 
 ## Structure
 
-- `skill/SKILL.md` - the public Brainstorm Skill file
+- `skill/SKILL.md` - the public FlowMotion Skill file
 - `agents/openai.yaml` - UI metadata for coding agents
 - `examples/` - public-safe sample inputs and outputs
 - `templates/` - reusable JSON scaffolds
@@ -185,7 +185,7 @@ Structure first. Layout second. Connections third. Motion last.
 
 - `README.md` is English-first for GitHub discovery.
 - `README.zh-CN.md` is the Chinese companion page.
-- The Skill name stays `Brainstorm Skill` in both versions.
+- The Skill name stays `FlowMotion Skill` in both versions.
 
 ## License And Brand Boundary
 
@@ -224,11 +224,11 @@ See:
 
 ## Find Juli Laoshi
 
-Brainstorm Skill is part of Juli Laoshi's public AI workflow experiments.
+FlowMotion Skill is part of Juli Laoshi's public AI workflow experiments.
 
 <p align="center">
   <a href="https://github.com/julilaoshi"><img alt="Follow on GitHub" src="https://img.shields.io/badge/Follow-on%20GitHub-111111?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/julilaoshi/brainstorm-skill"><img alt="Star This Repo" src="https://img.shields.io/badge/Star-This%20Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
+  <a href="https://github.com/julilaoshi/flowmotion-skill"><img alt="Star This Repo" src="https://img.shields.io/badge/Star-This%20Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
 </p>
 
 If this Skill helps you, star the repository so you can find it again.

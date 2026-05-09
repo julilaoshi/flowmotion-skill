@@ -1,6 +1,6 @@
 # PUBLIC_RELEASE_CHECKLIST
 
-Use this before publishing Brainstorm Skill.
+Use this before publishing FlowMotion Skill.
 
 ## A. Privacy
 
@@ -22,8 +22,8 @@ Use this before publishing Brainstorm Skill.
 
 ## C. Skill Naming
 
-- [ ] Repository or folder may be `brainstorm-skill-public`.
-- [ ] Skill display name remains `Brainstorm Skill`.
+- [ ] Repository or folder may be `flowmotion-skill-public`.
+- [ ] Skill display name remains `FlowMotion Skill`.
 - [ ] `skill/SKILL.md` frontmatter name does not include `public`.
 - [ ] README explains public release without renaming the Skill.
 

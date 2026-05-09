@@ -11,7 +11,7 @@ Show how raw ideas become a presentation-ready flowchart.
   "canvas": "16:9",
   "sequence": [
     {"time": 0.3, "action": "show_node", "target": "raw_notes"},
-    {"time": 1.0, "action": "show_node", "target": "brainstorm_skill"},
+    {"time": 1.0, "action": "show_node", "target": "flowmotion_skill"},
     {"time": 1.4, "action": "draw_edge", "target": "raw_notes_to_skill"},
     {"time": 2.4, "action": "show_internal_steps", "target": ["cluster", "compress", "find_path"]},
     {"time": 3.4, "action": "show_node", "target": "flow_spec"},

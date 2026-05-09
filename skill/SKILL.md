@@ -1,13 +1,13 @@
 ---
-name: brainstorm-skill
+name: flowmotion-skill
 description: Turn messy brainstorming, spoken notes, SRT transcripts, or rough planning text into clear flow structures, designed flowchart briefs, motion diagram specs, and presentation-ready visual explanations.
 ---
 
-# Brainstorm Skill
+# FlowMotion Skill
 
 ## Position
 
-Brainstorm Skill turns messy thinking into clear visual structure.
+FlowMotion Skill turns messy thinking into clear visual structure.
 
 It does two jobs:
 

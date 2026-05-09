@@ -1,6 +1,6 @@
 # Privacy Checklist
 
-Before moving any internal Brainstorm Skill material into this public repository, remove:
+Before moving any internal FlowMotion Skill material into this public repository, remove:
 
 - local absolute paths
 - private workspace names
