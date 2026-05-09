@@ -1,0 +1,59 @@
+{
+  "canvas": {
+    "ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "safe_margin": 64
+  },
+  "layout_type": "hub_and_outputs",
+  "zones": [
+    {
+      "id": "input_zone",
+      "role": "messy input fragments",
+      "x": 64,
+      "y": 150,
+      "width": 260,
+      "height": 420
+    },
+    {
+      "id": "engine_zone",
+      "role": "central organizing engine",
+      "x": 360,
+      "y": 220,
+      "width": 280,
+      "height": 180
+    },
+    {
+      "id": "structure_zone",
+      "role": "structured model or main output",
+      "x": 720,
+      "y": 220,
+      "width": 260,
+      "height": 180
+    },
+    {
+      "id": "output_zone",
+      "role": "final branches or export formats",
+      "x": 1040,
+      "y": 120,
+      "width": 190,
+      "height": 480
+    }
+  ],
+  "nodes": [
+    {
+      "id": "",
+      "zone": "",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    }
+  ],
+  "label_rules": {
+    "max_title_words": 5,
+    "avoid_path_overlap": true,
+    "hide_engineering_ports": true
+  }
+}
+

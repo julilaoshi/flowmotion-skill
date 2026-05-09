@@ -1,0 +1,5 @@
+interface:
+  display_name: "Brainstorm Skill"
+  short_description: "把口播、SRT、乱笔记和脑暴内容整理成流程结构、流程图 brief 与动态解释图规格"
+  default_prompt: "Use Brainstorm Skill to turn messy ideas, spoken notes, or an SRT transcript into a core judgment, flow_spec, connection_spec, and motion_timeline for a clear visual flow."
+

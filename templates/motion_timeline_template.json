@@ -1,0 +1,18 @@
+{
+  "duration_seconds": 8,
+  "fps": 24,
+  "events": [
+    {
+      "time": 0,
+      "action": "show_node",
+      "target": ""
+    },
+    {
+      "time": 1,
+      "action": "draw_edge",
+      "target": ""
+    }
+  ],
+  "final_frame": ""
+}
+

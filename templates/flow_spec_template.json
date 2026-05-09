@@ -1,0 +1,20 @@
+{
+  "core_judgment": "",
+  "diagram_type": "",
+  "nodes": [
+    {
+      "id": "",
+      "label": "",
+      "role": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "",
+      "target": "",
+      "type": "main_flow"
+    }
+  ],
+  "not_suitable_for_diagram": []
+}
+

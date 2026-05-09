@@ -1,0 +1,24 @@
+{
+  "canvas": "16:9",
+  "layout_strategy": "",
+  "ports": [
+    {
+      "node": "",
+      "port_id": "",
+      "side": "left|right|top|bottom",
+      "visible_in_final": false
+    }
+  ],
+  "paths": [
+    {
+      "id": "",
+      "source": "",
+      "target": "",
+      "edge_type": "fan_in|main_flow|branch_out|internal_process",
+      "style": "gray_base_with_green_progress",
+      "orb": true,
+      "avoid_labels": true
+    }
+  ]
+}
+
