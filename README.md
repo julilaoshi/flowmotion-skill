@@ -12,13 +12,19 @@
   <a href="./examples/srt_to_flowchart_example.md"><img alt="Example" src="https://img.shields.io/badge/View-Example-2da44e?style=for-the-badge" /></a>
 </p>
 
-<p align="center">
-  <img src="./site/assets/brainstorm-skill-demo.gif" alt="Brainstorm Skill motion flow demo" width="100%" />
-</p>
-
 Public `v1.0`. This repository contains the public-safe version of Brainstorm Skill.
 
 English | [简体中文](./README.zh-CN.md)
+
+## Demo
+
+<p align="center">
+  <img src="./site/assets/brainstorm-skill-demo.gif" alt="Brainstorm Skill motion flow demo" width="76%" />
+</p>
+
+<p align="center">
+  <strong>Video demo:</strong> publishing soon.
+</p>
 
 ## Start Here
 

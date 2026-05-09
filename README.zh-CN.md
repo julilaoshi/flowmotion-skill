@@ -12,13 +12,19 @@
   <a href="./examples/srt_to_flowchart_example.md"><img alt="Example" src="https://img.shields.io/badge/View-Example-2da44e?style=for-the-badge" /></a>
 </p>
 
-<p align="center">
-  <img src="./site/assets/brainstorm-skill-demo.gif" alt="Brainstorm Skill 动态流程图演示" width="100%" />
-</p>
-
 Public `v1.0`。这是 Brainstorm Skill 的公开安全版本。
 
 [English](./README.md) | 简体中文
+
+## 演示
+
+<p align="center">
+  <img src="./site/assets/brainstorm-skill-demo.gif" alt="Brainstorm Skill 动态流程图演示" width="76%" />
+</p>
+
+<p align="center">
+  <strong>视频演示：</strong>发布中。
+</p>
 
 ## 先从这里开始
 
