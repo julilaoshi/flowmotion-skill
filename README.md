@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://github.com/julilaoshi/flowmotion-skill"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
-  <a href="#how-to-install"><img alt="Install" src="https://img.shields.io/badge/Install-111111?style=for-the-badge" /></a>
+  <a href="#how-to-load"><img alt="Load Skill" src="https://img.shields.io/badge/Load-Skill-111111?style=for-the-badge" /></a>
   <a href="./examples/srt_to_flowchart_example.md"><img alt="Example" src="https://img.shields.io/badge/View-Example-2da44e?style=for-the-badge" /></a>
 </p>
 
@@ -86,37 +86,37 @@ In my internal workflow, stronger demos may also use:
 
 This public version opens the reusable method and templates. It does not ship the full private production system.
 
-## How To Install
+## How To Load
 
-### Recommended: ask your coding agent to install it
+### Recommended: ask your coding agent to load it
 
 Open Codex, Claude Code, or another coding agent and paste:
 
 ```text
-Please help me install FlowMotion Skill.
+Please help me load FlowMotion Skill.
 
 Repository:
 https://github.com/julilaoshi/flowmotion-skill
 
 Please do the following:
-1. Read README.md and skill/SKILL.md
-2. Decide where this coding agent expects user skills to live
-3. Copy or link the skill/ folder into the readable skills directory
-4. Confirm that skill/SKILL.md is readable
-5. Run a minimal test: turn a messy note into a flow_spec and connection_spec
-6. Do not modify the core rules of the Skill
+1. Do not run npm install, pip install, build commands, or any long setup script. This repo has no package installer.
+2. Read README.md and skill/SKILL.md.
+3. Make skill/SKILL.md available as a readable Skill in this project or in this coding agent's skills directory.
+4. Stop after confirming that skill/SKILL.md is readable and summarize how to invoke it.
+5. Do not run a test task yet unless I explicitly ask for it.
+6. Do not modify the core rules of the Skill.
 ```
 
-### Manual install fallback
+### Manual clone fallback
 
 ```bash
 git clone https://github.com/julilaoshi/flowmotion-skill.git
 cd flowmotion-skill
 ```
 
-Then copy `skill/SKILL.md` into your coding agent's skills directory, or ask your agent to do it.
+Then copy or link `skill/SKILL.md` into your coding agent's skills directory, or ask your agent to do it.
 
-Restart your coding agent after installation.
+Restart your coding agent after loading the Skill if your agent requires a restart.
 
 ## Quick Test
 

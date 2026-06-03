@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://github.com/julilaoshi/flowmotion-skill"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
-  <a href="#安装方式"><img alt="Install" src="https://img.shields.io/badge/Install-111111?style=for-the-badge" /></a>
+  <a href="#载入方式"><img alt="载入 Skill" src="https://img.shields.io/badge/载入-Skill-111111?style=for-the-badge" /></a>
   <a href="./examples/srt_to_flowchart_example.md"><img alt="Example" src="https://img.shields.io/badge/View-Example-2da44e?style=for-the-badge" /></a>
 </p>
 
@@ -86,28 +86,28 @@ public 版开放的是可复用方法：
 
 public 版开放的是可复用方法和模板，不等于把完整内部生产系统全部放出来。
 
-## 安装方式
+## 载入方式
 
-### 推荐：让你的 coding agent 帮你安装
+### 推荐：让你的 coding agent 帮你载入
 
 打开 Codex、Claude Code 或其他 coding agent，粘贴：
 
 ```text
-请帮我安装 FlowMotion Skill。
+请帮我载入 FlowMotion Skill。
 
 仓库：
 https://github.com/julilaoshi/flowmotion-skill
 
 请执行：
-1. 先读 README.md 和 skill/SKILL.md
-2. 判断当前 coding agent 的 skills 目录在哪里
-3. 把 skill/ 文件夹复制或链接到可读取的 skills 目录
-4. 确认 skill/SKILL.md 可读
-5. 做一个最小测试：把一段乱笔记转成 flow_spec 和 connection_spec
-6. 不要改 FlowMotion Skill 的核心规则
+1. 不要运行 npm install、pip install、build 命令，也不要跑任何长安装脚本。这个仓库没有包安装器。
+2. 先读 README.zh-CN.md 和 skill/SKILL.md。
+3. 把 skill/SKILL.md 作为当前项目或当前 coding agent 可读取的 Skill。
+4. 确认 skill/SKILL.md 可读后就停下来，并告诉我以后怎么调用它。
+5. 除非我明确要求，否则不要立刻做测试任务。
+6. 不要改 FlowMotion Skill 的核心规则。
 ```
 
-安装后请重启 coding agent。
+如果你的 coding agent 需要重启，载入后再重启。
 
 ## 快速测试
 
