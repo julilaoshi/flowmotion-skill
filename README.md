@@ -16,76 +16,6 @@ Public `v1.0`. This repository contains the public-safe version of FlowMotion Sk
 
 English | [简体中文](./README.zh-CN.md)
 
-## Demo
-
-<p align="center">
-  <img src="./site/assets/flowmotion-skill-demo.gif" alt="FlowMotion Skill motion flow demo" width="76%" />
-</p>
-
-<p align="center">
-  <strong>Video demo:</strong> publishing soon.
-</p>
-
-## Start Here
-
-- [Star the repository](https://github.com/julilaoshi/flowmotion-skill)
-- [Read the public skill file](./skill/SKILL.md)
-- [Try the SRT-to-flowchart example](./examples/srt_to_flowchart_example.md)
-
-## What This Unlocks
-
-- turn loose brainstorming into a structured flow
-- convert spoken scripts or SRT transcripts into diagram-ready briefs
-- prepare flowcharts for presentation, teaching, video explainers, and product storytelling
-- design motion flow specs where nodes appear step by step and paths reveal over time
-- hand off diagram logic to PPT, HTML, video, or 3D follow-up work
-- separate structure, layout, connection design, and motion timing before implementation
-
-## Why This Repository Exists
-
-Most idea capture stops at text.
-
-FlowMotion Skill exists for the moment after capture: when the raw thoughts need to become a flow that someone else can understand in a meeting, a class, a video, or a product demo.
-
-The public version focuses on the reusable method:
-
-- gather scattered input
-- compress it into a main path
-- design connection logic
-- prepare a motion-ready visual brief
-
-## What This Repository Includes
-
-- the public FlowMotion Skill file
-- public-safe examples
-- reusable templates for flow specs, connection specs, and motion timelines
-- a privacy and release checklist
-- no private local workflow files
-
-## What This Repository Does Not Include
-
-- private transcripts
-- local absolute paths
-- internal project reports
-- internal score notes or user chat logs
-- private Skill chains from my local workspace
-- copyrighted third-party examples
-- browser automation scripts or local rendering scripts
-- the full internal production workflow shown on social media
-
-## Why The Social Media Version Looks Stronger
-
-The public repository focuses on FlowMotion Skill itself.
-
-In my internal workflow, stronger demos may also use:
-
-- design skills for final visual polish
-- coding workflows for HTML or video implementation
-- media tools for GIF or MP4 export
-- accumulated private examples and intermediate assets
-
-This public version opens the reusable method and templates. It does not ship the full private production system.
-
 ## How To Load
 
 ### Recommended: ask your coding agent to load it
@@ -164,6 +94,76 @@ Structure first. Layout second. Connections third. Motion last.
 - [connection_spec_template.json](./templates/connection_spec_template.json)
 - [motion_timeline_template.json](./templates/motion_timeline_template.json)
 
+## Demo
+
+<p align="center">
+  <img src="./site/assets/flowmotion-skill-demo.gif" alt="FlowMotion Skill motion flow demo" width="76%" />
+</p>
+
+<p align="center">
+  <strong>Video demo:</strong> publishing soon.
+</p>
+
+## Start Here
+
+- [Star the repository](https://github.com/julilaoshi/flowmotion-skill)
+- [Read the public skill file](./skill/SKILL.md)
+- [Try the SRT-to-flowchart example](./examples/srt_to_flowchart_example.md)
+
+## What This Unlocks
+
+- turn loose brainstorming into a structured flow
+- convert spoken scripts or SRT transcripts into diagram-ready briefs
+- prepare flowcharts for presentation, teaching, video explainers, and product storytelling
+- design motion flow specs where nodes appear step by step and paths reveal over time
+- hand off diagram logic to PPT, HTML, video, or 3D follow-up work
+- separate structure, layout, connection design, and motion timing before implementation
+
+## Why This Repository Exists
+
+Most idea capture stops at text.
+
+FlowMotion Skill exists for the moment after capture: when the raw thoughts need to become a flow that someone else can understand in a meeting, a class, a video, or a product demo.
+
+The public version focuses on the reusable method:
+
+- gather scattered input
+- compress it into a main path
+- design connection logic
+- prepare a motion-ready visual brief
+
+## What This Repository Includes
+
+- the public FlowMotion Skill file
+- public-safe examples
+- reusable templates for flow specs, connection specs, and motion timelines
+- a privacy and release checklist
+- no private local workflow files
+
+## What This Repository Does Not Include
+
+- private transcripts
+- local absolute paths
+- internal project reports
+- internal score notes or user chat logs
+- private Skill chains from my local workspace
+- copyrighted third-party examples
+- browser automation scripts or local rendering scripts
+- the full internal production workflow shown on social media
+
+## Why The Social Media Version Looks Stronger
+
+The public repository focuses on FlowMotion Skill itself.
+
+In my internal workflow, stronger demos may also use:
+
+- design skills for final visual polish
+- coding workflows for HTML or video implementation
+- media tools for GIF or MP4 export
+- accumulated private examples and intermediate assets
+
+This public version opens the reusable method and templates. It does not ship the full private production system.
+
 ## Structure
 
 - `skill/SKILL.md` - the public FlowMotion Skill file
@@ -221,6 +221,15 @@ See:
 - [Privacy Checklist](./references/privacy_checklist.md)
 - [Brand Notice](./BRAND_NOTICE.md)
 - [Public Release Checklist](./PUBLIC_RELEASE_CHECKLIST.md)
+
+## Related Skills
+
+- [Takeaway Skill](https://github.com/julilaoshi/takeaway-skill) - distill references into reusable mechanisms.
+- [Open Pencil](https://github.com/julilaoshi/open-pencil) - run Pencil workflows with agents.
+- [FlowMotion Skill](https://github.com/julilaoshi/flowmotion-skill) - turn messy notes into motion flows.
+- [Pickupskill](https://github.com/julilaoshi/pickupskill) - organize messy folders safely.
+- [Sunzi Reading](https://github.com/julilaoshi/sunzi-reading) - explain papers in plain language.
+- [Callback Skill](https://github.com/julilaoshi/callback-skill) - package feedback for Skill upgrades.
 
 ## Find Juli Laoshi
 

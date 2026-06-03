@@ -16,76 +16,6 @@ Public `v1.0`。这是 FlowMotion Skill 的公开安全版本。
 
 [English](./README.md) | 简体中文
 
-## 演示
-
-<p align="center">
-  <img src="./site/assets/flowmotion-skill-demo.gif" alt="FlowMotion Skill 动态流程图演示" width="76%" />
-</p>
-
-<p align="center">
-  <strong>视频演示：</strong>发布中。
-</p>
-
-## 先从这里开始
-
-- [给仓库点星](https://github.com/julilaoshi/flowmotion-skill)
-- [阅读 public Skill 文件](./skill/SKILL.md)
-- [查看 SRT 转流程图示例](./examples/srt_to_flowchart_example.md)
-
-## 它能帮你做什么
-
-- 把散乱脑暴整理成流程结构。
-- 把口播稿或 SRT 字幕转成流程图 brief。
-- 为演示、教学、视频解释和产品故事准备流程图方案。
-- 设计节点逐步出现、路径逐段揭示的动态流程图规格。
-- 为 PPT、HTML、视频或后续 3D 图准备可交接 brief。
-- 在实现前先拆清结构、布局、连接线和动效节奏。
-
-## 为什么做这个仓库
-
-很多想法采集会停在文字里。
-
-FlowMotion Skill 处理的是下一步：把已经说出来、写下来、堆在一起的想法，整理成别人能在会议、课堂、视频或产品演示里看懂的流程。
-
-public 版开放的是可复用方法：
-
-- 汇聚碎片输入
-- 压缩成主路径
-- 设计连接逻辑
-- 形成可动效化的视觉 brief
-
-## 本仓库包含什么
-
-- FlowMotion Skill 公开版。
-- 公开安全示例。
-- flow spec、connection spec、motion timeline 模板。
-- 隐私检查和发布检查清单。
-- 不包含本地私有工作流文件。
-
-## 本仓库不包含什么
-
-- 私人口播或字幕。
-- 本地绝对路径。
-- 内部项目报告。
-- 内部评分记录或用户聊天原文。
-- 私有 Skill 链路细节。
-- 受版权保护的第三方案例。
-- 浏览器自动化脚本或本地渲染脚本。
-- 社交媒体里展示的完整内部生产流。
-
-## 为什么社交媒体版本看起来更强
-
-这个 public 仓库聚焦 FlowMotion Skill 本身。
-
-在我的内部工作流里，更强的演示通常还会叠加：
-
-- 视觉设计 Skill 做最终排版
-- coding 工作流实现 HTML 或视频
-- 媒体工具导出 GIF / MP4
-- 更大量的私有案例和中间资产
-
-public 版开放的是可复用方法和模板，不等于把完整内部生产系统全部放出来。
-
 ## 载入方式
 
 ### 推荐：让你的 coding agent 帮你载入
@@ -159,6 +89,76 @@ FlowMotion Skill 的默认顺序：
 - `references/` - 隐私与发布边界
 - `site/assets/` - README 演示资产
 
+## 演示
+
+<p align="center">
+  <img src="./site/assets/flowmotion-skill-demo.gif" alt="FlowMotion Skill 动态流程图演示" width="76%" />
+</p>
+
+<p align="center">
+  <strong>视频演示：</strong>发布中。
+</p>
+
+## 先从这里开始
+
+- [给仓库点星](https://github.com/julilaoshi/flowmotion-skill)
+- [阅读 public Skill 文件](./skill/SKILL.md)
+- [查看 SRT 转流程图示例](./examples/srt_to_flowchart_example.md)
+
+## 它能帮你做什么
+
+- 把散乱脑暴整理成流程结构。
+- 把口播稿或 SRT 字幕转成流程图 brief。
+- 为演示、教学、视频解释和产品故事准备流程图方案。
+- 设计节点逐步出现、路径逐段揭示的动态流程图规格。
+- 为 PPT、HTML、视频或后续 3D 图准备可交接 brief。
+- 在实现前先拆清结构、布局、连接线和动效节奏。
+
+## 为什么做这个仓库
+
+很多想法采集会停在文字里。
+
+FlowMotion Skill 处理的是下一步：把已经说出来、写下来、堆在一起的想法，整理成别人能在会议、课堂、视频或产品演示里看懂的流程。
+
+public 版开放的是可复用方法：
+
+- 汇聚碎片输入
+- 压缩成主路径
+- 设计连接逻辑
+- 形成可动效化的视觉 brief
+
+## 本仓库包含什么
+
+- FlowMotion Skill 公开版。
+- 公开安全示例。
+- flow spec、connection spec、motion timeline 模板。
+- 隐私检查和发布检查清单。
+- 不包含本地私有工作流文件。
+
+## 本仓库不包含什么
+
+- 私人口播或字幕。
+- 本地绝对路径。
+- 内部项目报告。
+- 内部评分记录或用户聊天原文。
+- 私有 Skill 链路细节。
+- 受版权保护的第三方案例。
+- 浏览器自动化脚本或本地渲染脚本。
+- 社交媒体里展示的完整内部生产流。
+
+## 为什么社交媒体版本看起来更强
+
+这个 public 仓库聚焦 FlowMotion Skill 本身。
+
+在我的内部工作流里，更强的演示通常还会叠加：
+
+- 视觉设计 Skill 做最终排版
+- coding 工作流实现 HTML 或视频
+- 媒体工具导出 GIF / MP4
+- 更大量的私有案例和中间资产
+
+public 版开放的是可复用方法和模板，不等于把完整内部生产系统全部放出来。
+
 ## 默认使用流
 
 1. 先读 `skill/SKILL.md`。
@@ -172,6 +172,15 @@ FlowMotion Skill 的默认顺序：
 - `README.md` 用英文优先，方便 GitHub 发现。
 - `README.zh-CN.md` 是中文伴随页。
 - Skill 名在两个版本里都保持 `FlowMotion Skill`。
+
+## 相关 Skill
+
+- [Takeaway Skill](https://github.com/julilaoshi/takeaway-skill) - 蒸馏参考，拿机制。
+- [Open Pencil](https://github.com/julilaoshi/open-pencil) - 让 agent 执行 Pencil。
+- [FlowMotion Skill](https://github.com/julilaoshi/flowmotion-skill) - 把乱想法变流程图。
+- [Pickupskill](https://github.com/julilaoshi/pickupskill) - 谨慎整理散落文件。
+- [孙子读论文](https://github.com/julilaoshi/sunzi-reading) - 把论文讲成人话。
+- [Callback Skill](https://github.com/julilaoshi/callback-skill) - 把反馈做成升级包。
 
 ## License 与品牌边界
 
